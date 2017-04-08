@@ -1,0 +1,9 @@
+{
+  "name": "wzrd-redux",
+  "version": "0.0.0",
+  "description": "WzrdRedux",
+  "main": "server.js",
+  "author": {
+    "name": "maxim"
+  }
+}
