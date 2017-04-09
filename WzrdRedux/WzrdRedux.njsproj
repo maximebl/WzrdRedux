@@ -29,6 +29,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="src\actions\courseActions.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\components\about\AboutPage.js">
       <SubType>Code</SubType>
     </Compile>
@@ -48,6 +51,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\index.test.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\reducers\courseReducer.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\routes.js">
@@ -86,6 +92,8 @@
     <Folder Include="src\components\about\" />
     <Folder Include="src\components\common\" />
     <Folder Include="src\components\course\" />
+    <Folder Include="src\actions\" />
+    <Folder Include="src\reducers\" />
     <Folder Include="src\styles\" />
     <Folder Include="tools\" />
     <Folder Include="src\" />
