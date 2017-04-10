@@ -32,6 +32,9 @@
     <Compile Include="src\actions\actionTypes.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\actions\ajaxStatusActions.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\actions\authorActions.js">
       <SubType>Code</SubType>
     </Compile>
@@ -54,6 +57,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\components\common\Header.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\components\common\LoadingDots.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\components\common\SelectInput.js">
@@ -84,6 +90,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\index.test.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\reducers\ajaxStatusReducer.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\reducers\authorReducer.js">
