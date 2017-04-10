@@ -1,9 +1,23 @@
-﻿export default function courseReducer(state = [], action) {
+﻿import * as types from '../actions/actionTypes';
+import initialState from './initialState';
+
+export default function courseReducer(state = initialState.courses, action) {
     switch (action.type) {
-        case 'CREATE_COURSE':
+        case types.LOAD_COURSES_SUCCESS:
+            return action.courses;
+
+        case types.CREATE_AUTHORS_SUCCESS:
             return [
-                ...state, Object.assign({}, action.course)
+                ...state,
+                Object.assign({}, action.course)
             ];
+
+        case types.UPDATE_AUTHORS_SUCCESS:
+            return [
+                ...state.filter(course => course.id !== action.course.id),
+                Object.assign({}, action.course)
+            ];
+
         default: return state;
     }
 }

@@ -29,7 +29,22 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="src\actions\actionTypes.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\actions\authorActions.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\actions\courseActions.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\api\delay.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\api\mockAuthorApi.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\api\mockCourseApi.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\components\about\AboutPage.js">
@@ -41,7 +56,25 @@
     <Compile Include="src\components\common\Header.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\components\common\SelectInput.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\components\common\TextInput.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\components\course\CourseForm.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\components\course\CourseList.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\components\course\CourseListRow.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\components\course\CoursesPage.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\components\course\ManageCoursePage.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="src\components\home\HomePage.js">
@@ -53,10 +86,22 @@
     <Compile Include="src\index.test.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\reducers\authorReducer.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\reducers\courseReducer.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\reducers\index.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\reducers\initialState.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\routes.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\store\configureStore.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="tools\testSetup.js">
@@ -93,6 +138,8 @@
     <Folder Include="src\components\common\" />
     <Folder Include="src\components\course\" />
     <Folder Include="src\actions\" />
+    <Folder Include="src\api\" />
+    <Folder Include="src\store\" />
     <Folder Include="src\reducers\" />
     <Folder Include="src\styles\" />
     <Folder Include="tools\" />
