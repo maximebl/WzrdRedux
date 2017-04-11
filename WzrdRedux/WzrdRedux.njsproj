@@ -110,7 +110,22 @@
     <Compile Include="src\routes.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\store\configureStore.dev.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\store\configureStore.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\store\configureStore.prod.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tools\build.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tools\buildHtml.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tools\distServer.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="tools\testSetup.js">
@@ -123,6 +138,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="webpack.config.dev.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="webpack.config.prod.js">
       <SubType>Code</SubType>
     </Compile>
     <Content Include=".babelrc">
